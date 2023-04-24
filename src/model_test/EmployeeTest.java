@@ -40,6 +40,7 @@ public class EmployeeTest {
 					System.exit(1);
 			}
 		}
+		System.out.println("Your Employee details::");
 		for(Employee e : earr) {
 			System.out.println(e);
 			System.out.printf("Salary => INR %.2f\n", e.computeSalary());
